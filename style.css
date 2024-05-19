@@ -9,6 +9,7 @@
 .item1{
     border: 1px solid rgb(61, 37, 199);
     grid-column: 1/-1;
+    background-color: blue;
     
 }
 
@@ -16,6 +17,7 @@
     border: 1px solid purple;
     grid-row: 2/4;
     /* grid-column: 2/4; */
+    background-color: blueviolet;
     
 }
 
@@ -43,4 +45,8 @@
 .item8{
     border: 1px soild orangered;
     grid-row: 8/9;
+}
+.item7{
+    border: 1px solid black;
+    grid-column: 3/-1;
 }
