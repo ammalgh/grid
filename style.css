@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px)   {
 .continar{
     border: 1px solid black;
     height: 50vh;
@@ -62,7 +62,7 @@
 
 
 
-@media only screen and (min-width: 600px)  {
+@media only screen and (min-width: 768px)  {
 .continar{
     border: 1px solid black;
     height: 50vh;
