@@ -1,0 +1,46 @@
+.continar{
+    border: 1px solid black;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4px;
+}
+
+.item1{
+    border: 1px solid rgb(61, 37, 199);
+    grid-column: 1/-1;
+    
+}
+
+.item2{
+    border: 1px solid purple;
+    grid-row: 2/4;
+    /* grid-column: 2/4; */
+    
+}
+
+.item3{
+    border: 1px solid  orange;
+    grid-column: 2/-1;
+    grid-row: 2/5;
+}
+.item4{
+    border: 1px solid green;
+    grid-row: 4/7;
+}
+.item6{
+    border: 1px solid rgba(39, 198, 39, 0.463);
+    grid-row: 7/8 ;
+
+}
+
+.item5{
+    border:1px solid rgb(36, 36, 102);
+  grid-column: 2/5 ;
+  grid-row: 5/7;
+
+}
+.item8{
+    border: 1px soild orangered;
+    grid-row: 8/9;
+}
